@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 18px 30px 18px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+/* Header with its own background color */
+.page-header {
+  background-color: #1f6f8b;
+  color: white;
+  padding: 22px;
+}
+
+/* Different background colors for each paragraph */
+.para-one {
+  background-color: #ffe9c6;
+  padding: 14px;
+  margin-top: 18px;
+  border-radius: 12px;
+}
+
+.para-two {
+  background-color: #d9f7e8;
+  padding: 14px;
+  margin-top: 18px;
+  border-radius: 12px;
+}
+
+/* Image styling: border + nice look */
+.book-cover {
+  margin-top: 16px;
+  border: 4px solid #222;
+  border-radius: 12px;
+}
+
+/* Quote with different text color */
+.quote {
+  margin-top: 22px;
+  padding: 14px;
+  background-color: white;
+  border-left: 6px solid #222;
+  color: #b23a48; /* different color for the quote text */
+  font-size: 18px;
+}
+
+.quote-author {
+  display: block;
+  margin-top: 8px;
+  color: #444;
+  font-size: 16px;
+}
